@@ -1,0 +1,77 @@
+@import url("/normalize.css");
+
+/* Variables */
+:root {
+  --main-bg-color--night: #292c2f;
+  --main-accent-color--night: #737480;
+  --main-border-color--night: #535358;
+}
+
+/* Utility classes */
+.flex-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  width: 15%;
+}
+
+.night-theme {
+  border-color: var(--main-border-color--night);
+  background: var(--main-bg-color--night);
+  color: var(--main-accent-color--night);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 60px;
+  border-bottom: 3px solid var(--main-border-color--night);
+}
+
+/* -- Navigation bar */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 60px;
+}
+
+.nav-bar__menu {
+}
+
+.nav-bar__theme {
+}
+
+.nav-bar__logo {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0px 0px 0px 0px;
+}
+
+.nav-bar__print {
+}
+
+.nav-bar__user {
+}
+
+main {
+  background: var(--main-bg-color--night);
+
+  margin: 0px 0px 0px 0px;
+  height: 100vh;
+}
+/* Book Text */
+.book {
+}
+
+/* Edit Area */
+/* -- Code Editor */
+
+/* -- Console */
